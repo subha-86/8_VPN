@@ -48,17 +48,7 @@ This task involves selecting a trustworthy free VPN service, setting it up on yo
 - Learn about protocols used (OpenVPN, WireGuard, etc.).
 - Understand privacy benefits like masking IP, avoiding ISP throttling, and protection on public Wi-Fi.
 
-### 8. Report Writing  
-Create a summary report including:
-- VPN setup steps followed
-- Screenshots (if available) of connection status and IP change
-- Observations on:
-  - Internet speed before and after VPN use
-  - Anonymity and privacy improvement
-  - Any issues faced
-- Reflection on when and why VPNs are useful
 
----
 
 ## Optional Extras  
 - Run a DNS leak test at [https://dnsleaktest.com](https://dnsleaktest.com)
