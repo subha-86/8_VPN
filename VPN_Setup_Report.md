@@ -1,5 +1,5 @@
 
-# VPN Setup Report (Detailed)
+# VPN Setup Report
 
 ## Objective  
 The main goal of this task is to gain practical knowledge about how Virtual Private Networks (VPNs) function, specifically their role in enhancing privacy and securing communications on the internet.
@@ -20,27 +20,22 @@ Compared ProtonVPN, Windscribe, TunnelBear, and Hotspot Shield. ProtonVPN stood 
 3. Choose the **Free Plan**, enter your **email** and create a **strong password**.
 4. Verify your email.
 
-**Screenshot:**  
-![Account Creation](images/protonvpn_signup.png)
+
 
 ### 3. Downloading and Installing the VPN Client  
 1. Download client from ProtonVPN’s [official site](https://protonvpn.com/download).
 2. Run the installer and follow instructions.
 
-**Screenshot:**  
-![Installer](images/protonvpn_installer.png)
+
 
 ### 4. Launching the VPN Client and Logging In  
 Launch the installed app, enter your credentials.
 
-**Screenshot:**  
-![Login](images/protonvpn_login.png)
 
 ### 5. Choosing and Connecting to a VPN Server  
 Select a nearby country (e.g., Netherlands), then click **Connect**.
 
-**Screenshot:**  
-![Server Selection](images/protonvpn_server.png)
+
 
 ### 6. Verifying VPN Connection  
 
@@ -61,13 +56,12 @@ Also used [https://whatismyipaddress.com](https://whatismyipaddress.com) to conf
 ### 7. DNS Leak Test  
 Visit [https://dnsleaktest.com](https://dnsleaktest.com). Ensure DNS servers match your VPN’s location.
 
-**Screenshot:**  
-![DNS Test](images/dns_leak_test.png)
+
 
 ### 8. Disconnecting VPN and Comparing Speed  
 Tested speeds using [Speedtest.net](https://www.speedtest.net). Observed ~30% reduction in speed when VPN was active.
 
----
+
 
 ## Summary of VPN Benefits  
 - Privacy and anonymity online
@@ -92,20 +86,6 @@ nmcli connection show    # Show all active connections
 sudo killall openvpn     # Kill all VPN processes (if CLI used)
 ```
 
-### Diagram: VPN Data Flow
-```mermaid
-graph TD;
-    UserDevice -->|Encrypted Traffic| VPNServer;
-    VPNServer -->|Decrypted| Internet;
-    Internet -->|Response| VPNServer -->|Encrypted Response| UserDevice;
-```
-
----
 
 ## Conclusion  
 ProtonVPN provided a safe and efficient method to explore the functionality and practical benefits of VPNs. Hands-on experimentation helped illustrate both the advantages (privacy, encryption) and limitations (speed, blocked content) of using VPN services.
-
----
-
-## Appendix  
-All screenshots are stored in the `images/` directory accompanying this report.
